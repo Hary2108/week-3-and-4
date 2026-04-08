@@ -81,7 +81,6 @@ public class ClientRiskScoreRanking {
             System.out.print(c + " ");
         }
         System.out.println("\nSwaps: " + swaps);
-
         // 🔸 Insertion Sort (Descending)
         Client[] insertionArray = clients.clone();
         insertionSort(insertionArray);
